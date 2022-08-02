@@ -1,0 +1,191 @@
+body{
+    font-family: Montserrat;
+
+}
+
+#title{
+ background-color: #ff4c68;
+  color: white;
+}
+
+h1.Title-Description {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#testimonials h2{
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+div.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+/* navigation bar */
+nav.navbar{
+  padding: 0 0 4.5rem ;
+}
+
+a.navbar-brand{
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+nav .nav-item{
+  padding: 0 18px;
+}
+
+nav .nav-link{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image  {
+  width: 60%; 
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+  /* margin-left: 100px; */
+}
+.dogiphone-image-container{
+  position: relative;
+}
+
+
+/* features section */
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+.feature-box-icons{
+  color: #ef8172;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.fa-solid:hover{
+color: #ff4c68;
+
+}
+
+#features p{
+  color: #8f8f8f;
+}
+
+#features h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: montserrat;
+}
+
+ .feature-box{
+text-align: center;
+padding: 5%;
+}
+
+/* Testimonial Section */
+#testimonials{
+  text-align: center;
+  background-color:#ef8172 ;
+  color: white;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+
+}
+
+#press{
+  background-color:#ef8172 ;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+
+#press img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+padding: 100px;
+}
+
+#pricing h3{
+  font-family: montserrat;
+  font-weight: bold;
+}
+#pricing h2{
+  font-family: montserrat;
+  font-weight: bold;
+}
+
+#pricing p{
+  color: #8f8f8f;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media(max-width:1028px){
+ #title{
+  text-align: center;
+ }
+ 
+  .title-image{
+  position: static;
+  transform: rotate(0);
+
+ }
+}
+
+ /* Call to Action  */
+
+ #cta h3{
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3.5rem;  
+  line-height: 1.5;
+
+ }
+ #cta{
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+
+ }
+ 
+ #footer{
+  text-align: center;
+  background-color: #fff;
+  padding: 7% 15%;
+
+ }
+ .icons-footer{
+  margin: 20px 10px;
+  padding-bottom: 30px;
+ }
+ 
